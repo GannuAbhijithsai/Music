@@ -1,7 +1,7 @@
 .Adminlogindiv1{
     width: 100vw;
     height: 100vh;
-    background-image: url("C:\Users\saiga\OneDrive\Desktop\Music\frontend\src\Components\Images\bg2.jpg");
+    background-image: url("../Images/bg2.jpg");
     background-size: cover; /* Cover the entire container */
     background-position: center; /* Center the background image */
     height: 100vh; /* Set the container height to the viewport height */

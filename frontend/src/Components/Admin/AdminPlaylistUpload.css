@@ -33,7 +33,7 @@
      .PlaylistUploaddiv5{
         width:45%;
         height: 80vh;
-       background-image: url("C:\Users\saiga\OneDrive\Desktop\Music\frontend\src\Components\Images\playlist1.jpg");
+       background-image: url("../Images/playlist1.jpg");
         background-size: cover; /* Cover the entire container */
         background-position: center; /* Center the background image */
         
@@ -64,7 +64,7 @@
      .PlaylistUploaddiv5{
         width:100%;
         height: 80vh;
-       background-image: url("C:\Users\saiga\OneDrive\Desktop\Music\frontend\src\Components\Images\playlist1.jpg");
+       background-image: url("../Images/playlist1.jpg");
         background-size: cover; /* Cover the entire container */
         background-position: center; /* Center the background image */
         

@@ -3,7 +3,7 @@
     height:100vh;
     background-color: black;
     color:white;
-    background-image: url('C:\Users\saiga\OneDrive\Desktop\Music\frontend\src\Components\Images\bg6.jpg');
+    background-image: url('../Images/bg6.jpg');
     background-size: cover;
     background-position: center;
 }

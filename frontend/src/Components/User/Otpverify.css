@@ -1,7 +1,7 @@
 .otpverifydiv1{
     width:100vw;
     height:100vh;
-    background-image: url('C:\Users\saiga\OneDrive\Desktop\Music\frontend\src\Components\Images\bg14.jpg');
+    background-image: url('../Images/bg14.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

@@ -55,7 +55,7 @@
       text-decoration:none;
     }
     .imagediv2{
-        background-image:linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%,rgba(0, 0, 0, 0.4) 30%, rgba(0, 0, 0, 0.4)60% ,rgba(0, 0, 0, 0.7)100%), linear-gradient(to right, rgba(0, 0, 0, 0.7) 0%,rgba(0, 0, 0, 0.4) 30%,rgba(0, 0, 0, 0.7) 90%, rgba(0, 0, 0, 0.8)100%), url('C:\Users\saiga\OneDrive\Desktop\Music\frontend\src\Components\Images\location.jpg'); /* Adjust the path */
+        background-image:linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%,rgba(0, 0, 0, 0.4) 30%, rgba(0, 0, 0, 0.4)60% ,rgba(0, 0, 0, 0.7)100%), linear-gradient(to right, rgba(0, 0, 0, 0.7) 0%,rgba(0, 0, 0, 0.4) 30%,rgba(0, 0, 0, 0.7) 90%, rgba(0, 0, 0, 0.8)100%), url('../Images/location.jpg'); /* Adjust the path */
         background-size: cover;
         background-repeat: no-repeat;
         width:100%;

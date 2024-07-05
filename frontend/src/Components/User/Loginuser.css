@@ -4,7 +4,7 @@
     background-color: black;
    display: flex;
    flex-direction: row;
-   background-image: url("C:\Users\saiga\OneDrive\Desktop\Music\frontend\src\Components\Images\bg4.jpg");
+   background-image: url("../Images/bg4.jpg");
     background-size: cover; /* Cover the entire container */
     background-position: bottom; 
 background-repeat: no-repeat;

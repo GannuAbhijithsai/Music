@@ -1,11 +1,11 @@
 .profilediv1{
-    background: url("C:\Users\saiga\OneDrive\Desktop\Music\frontend\src\Components\Images\bg2.jpg");
+    background: url("../Images/bg2.jpg");
     background-position: center;
     background-size: cover;
 
 }
 .profilediv2{
-    background: url("C:\Users\saiga\OneDrive\Desktop\Music\frontend\src\Components\Images\profilebg.webp");
+    background: url("../Images/profilebg.webp");
     background-position: center;
     background-size: cover;
 }
@@ -72,7 +72,7 @@ input::placeholder {
         border-width: 1px;
         margin-left: 2%;
         margin-top: -1%;
-        background-image: url("C:\Users\saiga\OneDrive\Desktop\Music\frontend\src\Components\Images\boy.avif");
+        background-image: url("../Images/boy.avif");
         background-position: center;
         background-size: cover;
         object-fit: cover; /* Add this to ensure the image is scaled correctly */
@@ -85,7 +85,7 @@ input::placeholder {
         border-width: 1px;
         margin-left: 2%;
         margin-top: -1%;
-        background-image: url("C:\Users\saiga\OneDrive\Desktop\Music\frontend\src\Components\Images\girl.avif");
+        background-image: url("../Images/girl.avif");
         background-position: center;
         background-size: cover;
     }
@@ -116,7 +116,7 @@ input::placeholder {
         border-width: 1px;
         margin-left: 2%;
         margin-top: -3%;
-        background-image: url("C:\Users\saiga\OneDrive\Desktop\Music\frontend\src\Components\Images\boy.avif");
+        background-image: url("../Images/boy.avif");
         background-position: center;
         background-size: cover;
         object-fit: cover; /* Add this to ensure the image is scaled correctly */
@@ -129,7 +129,7 @@ input::placeholder {
         border-width: 1px;
         margin-left: 2%;
         margin-top: -3%;
-        background-image: url("C:\Users\saiga\OneDrive\Desktop\Music\frontend\src\Components\Images\girl.avif");
+        background-image: url("../Images/girl.avif");
         background-position: center;
         background-size: cover;
     }
@@ -160,7 +160,7 @@ input::placeholder {
         border-width: 1px;
         margin-left: 2%;
         margin-top: -3%;
-        background-image: url("C:\Users\saiga\OneDrive\Desktop\Music\frontend\src\Components\Images\boy.avif");
+        background-image: url("../Images/boy.avif");
         background-position: center;
         background-size: cover;
         object-fit: cover; /* Add this to ensure the image is scaled correctly */
@@ -173,7 +173,7 @@ input::placeholder {
         border-width: 1px;
         margin-left: 2%;
         margin-top: -3%;
-        background-image: url("C:\Users\saiga\OneDrive\Desktop\Music\frontend\src\Components\Images\girl.avif");
+        background-image: url("../Images/girl.avif");
         background-position: center;
         background-size: cover;
     }

@@ -29,7 +29,7 @@
 .cplaylistdiv5{
     width:40%;
     height: 100vh;
-    background-image:url("C:\Users\saiga\OneDrive\Desktop\Music\frontend\src\Components\Images\playlist.jpg");
+    background-image:url("../Images/playlist.jpg");
     background-size: cover;
     background-repeat: no-repeat;
   
@@ -65,7 +65,7 @@ input::placeholder {
      .cplaylistdiv5{
          width:40%;
          height: 100vh;
-         background-image:url("C:\Users\saiga\OneDrive\Desktop\Music\frontend\src\Components\Images\playlist.jpg");
+         background-image:url("../Images/playlist.jpg");
          background-size: cover;
          background-repeat: no-repeat;
        
@@ -94,7 +94,7 @@ input::placeholder {
      .cplaylistdiv5{
        
         height:50vh;
-         background-image:url("C:\Users\saiga\OneDrive\Desktop\Music\frontend\src\Components\Images\playlist.jpg");
+         background-image:url("../Images/playlist.jpg");
          background-size: cover;
          background-repeat: no-repeat;
          background-position: center;
