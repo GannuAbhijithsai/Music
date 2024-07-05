@@ -1,0 +1,62 @@
+.modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent; /* semi-transparent black overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.modal-content {
+    background-color: black;
+    padding: 20px;
+    border-radius: 8px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: beige;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+    text-align: center;
+    height:100%;
+    overflow-y: auto;
+    width:100%;
+  
+}
+
+.playlist-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.playlist-list li {
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.playlist-list li:hover {
+    background-color:darkgrey;
+    color:white
+}
+
+.close-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #dc3545; /* Bootstrap danger color */
+    color: white;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.close-btn:hover {
+    background-color: #bd2130; /* Darker shade of red */
+}

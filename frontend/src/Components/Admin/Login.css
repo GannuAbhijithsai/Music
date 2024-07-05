@@ -1,0 +1,45 @@
+.Adminlogindiv1{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("C:\Users\saiga\OneDrive\Desktop\Music\frontend\src\Components\Images\bg2.jpg");
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    height: 100vh; /* Set the container height to the viewport height */
+  
+    /* Define linear gradient */
+   display: flex;
+   flex-direction: row;
+}  
+
+@media (min-width:768px) {
+    .Adminlogindiv2{
+        width: 40%;
+        height: 78%;
+        margin-top: 6%;
+        margin-right: 10%;
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logoimg{
+        width:20%;
+        height:20%;
+    }
+}
+@media (max-width:767px) {
+    .Adminlogindiv2{
+        width: 100%;
+        height: 78%;
+        margin-top: 6%;
+        margin-right: 10%;
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logoimg{
+        width:15%;
+        height:10%;
+    }
+}

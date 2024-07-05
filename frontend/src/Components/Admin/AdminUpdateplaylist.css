@@ -1,0 +1,126 @@
+
+@media (min-width: 768px) {
+    .updateplay7{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       align-items: center;
+       width:100%;
+       height:100%;
+    }
+    .updateplay8{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width:100%;
+        height:100%;
+    }
+    .updateplaydiv1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .updateplay1{
+        width:30%;
+        height:100%;
+    }
+    .onepimg2{
+        width:100%;
+        height:40%;
+    }
+    .updateplay2{
+     width:70%;
+     height:100%;
+     border-left: 2px solid white;
+    }
+    .updateplay3{
+        width:90%;
+        height:20%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+       
+    }
+    .updateplay4{
+        width:30%;
+        height:70%;
+    }
+    .updateplay5{
+        width:40%;
+        height:70%;
+    }
+    .updateplay6{
+        width:70%;
+    }
+}
+@media (max-width: 767px) {
+    .updateplaydiv1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        overflow-y: auto;
+        margin-bottom: 10%;
+    }
+    .updateplay1{
+        width:80%;
+        height:60%;
+    }
+    .updateplay2{
+     width:100%;
+     height:60%;
+     border-top: 2px solid white;
+     padding-bottom: 10% !important;
+    
+    }
+    .onepimg2{
+        width:100%;
+        height:60%;
+    }
+    .updateplay3{
+        width:100%;
+        height:50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+       
+    }
+    .updateplay7{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        width:70%;
+        height:70%;
+     }
+     .updateplay8{
+         display: flex;
+         flex-direction: row;
+         justify-content: flex-start;
+         align-items: center;
+         width:100%;
+         height:70%;
+         margin-bottom: 2.5%;
+     }
+    .updateplay4{
+        width:30%;
+        height:50%;
+        margin-left: 5%;
+        margin-right: 10%;
+    }
+    .updateplay5{
+        width:100%;
+        height:50%;
+    }
+    .updateplay6{
+        width:60%;
+        height:50%;
+        margin-left: 5%;
+        margin-right: 10%;
+        
+    }
+}

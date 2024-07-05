@@ -1,0 +1,73 @@
+.PlaylistUploaddiv1{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: azure;
+}
+
+
+
+
+
+@media (min-width:1024px) {
+    .PlaylistUploaddiv2{
+        margin-top: 9%;
+        text-align: center;
+        font-weight: bolder;
+        margin-bottom: 3%;
+    }
+    .PlaylistUploaddiv4{
+        width:100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .PlaylistUploaddiv3{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+         width: 55%;
+     }
+     .PlaylistUploaddiv5{
+        width:45%;
+        height: 80vh;
+       background-image: url("C:\Users\saiga\OneDrive\Desktop\Music\frontend\src\Components\Images\playlist1.jpg");
+        background-size: cover; /* Cover the entire container */
+        background-position: center; /* Center the background image */
+        
+      
+    }
+}
+@media (max-width:1023px) {
+    .PlaylistUploaddiv2{
+        margin-top: 25%;
+        text-align: center;
+        font-weight: bolder;
+        margin-bottom: 3%;
+    }
+    .PlaylistUploaddiv4{
+        width:100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .PlaylistUploaddiv3{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+         width: 100%;
+     }
+     .PlaylistUploaddiv5{
+        width:100%;
+        height: 80vh;
+       background-image: url("C:\Users\saiga\OneDrive\Desktop\Music\frontend\src\Components\Images\playlist1.jpg");
+        background-size: cover; /* Cover the entire container */
+        background-position: center; /* Center the background image */
+        
+      
+    }
+}

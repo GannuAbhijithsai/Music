@@ -1,0 +1,62 @@
+.Loginuserdiv1{
+    width:100vw;
+    height:100vh;
+    background-color: black;
+   display: flex;
+   flex-direction: row;
+   background-image: url("C:\Users\saiga\OneDrive\Desktop\Music\frontend\src\Components\Images\bg4.jpg");
+    background-size: cover; /* Cover the entire container */
+    background-position: bottom; 
+background-repeat: no-repeat;
+color:#f7b731;
+}
+.Loginuserdiv2{
+    width:40%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+
+.form-control{
+    color:#f7b731;
+}
+.form-select{
+    color:#f7b731;
+}
+
+@media (min-width:768px) {
+    .Loginuserdiv3{
+        width:60%;
+        height:100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color:#f7b731;
+        justify-content: center;
+       
+    }
+    .logoimg{
+        width:10%; 
+        height:10%;
+    }
+}
+@media (max-width:767px) {
+    .Loginuserdiv3{
+        width:100%;
+        height:100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color:#f7b731;
+        justify-content: center;
+       
+    }
+    .logoimg{
+        width:15%;
+        height:10%;
+    }
+}

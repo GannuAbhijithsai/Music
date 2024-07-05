@@ -1,0 +1,32 @@
+.otpverifydiv1{
+    width:100vw;
+    height:100vh;
+    background-image: url('C:\Users\saiga\OneDrive\Desktop\Music\frontend\src\Components\Images\bg14.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row-reverse;
+    color:#f7b731;
+}
+
+@media (min-width:1024px) {
+    .otpvdiv2{
+        width:40%;
+        margin-top:10%;
+    }
+    .logoimg{
+        width:20%;
+        height:20%;
+    }
+}
+@media (max-width:1023px) {
+    .otpvdiv2{
+        width:50%;
+        margin-top:30%;
+    }
+    .logoimg{
+        width:15%;
+        height:10%;
+    }
+}

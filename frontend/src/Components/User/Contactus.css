@@ -1,0 +1,243 @@
+.contactdiv1{
+    width:100vw;
+    height:100vh;
+    background-color: black;
+    color:azure;
+    overflow-y: auto;
+}
+.outerdiv{
+    margin-top: 10%;
+    padding-top: 10%;
+    height:100vh;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media (max-width: 1023px) {
+    .innerdiv1{
+        margin-top: 15%;
+        width:100%;
+        height:100%;
+        background-color: black;
+    
+        display: flex;
+        justify-content: space-between;
+    flex-direction: column;
+    }
+    .innerdiv2{
+        width:100%;
+        height:10%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .contactuspagedetails{
+        width:17%;
+        height:100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .headingd1{
+        margin-top: 10%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+       text-align: start;
+       align-items: center;
+       height: 100%;
+      
+    }
+    .googlemaplink{
+      width:100%;
+      height:100%;
+      text-decoration:none;
+    }
+    .imagediv2{
+        background-image:linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%,rgba(0, 0, 0, 0.4) 30%, rgba(0, 0, 0, 0.4)60% ,rgba(0, 0, 0, 0.7)100%), linear-gradient(to right, rgba(0, 0, 0, 0.7) 0%,rgba(0, 0, 0, 0.4) 30%,rgba(0, 0, 0, 0.7) 90%, rgba(0, 0, 0, 0.8)100%), url('C:\Users\saiga\OneDrive\Desktop\Music\frontend\src\Components\Images\location.jpg'); /* Adjust the path */
+        background-size: cover;
+        background-repeat: no-repeat;
+        width:100%;
+        height: 100%;
+        color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .imagediv2h1 p{
+        color: #6CC1B6 !important;
+        margin-bottom: 0%;
+        font-size:32px;
+        font-weight: 700;
+        font:Poppins;
+    }
+    .headingh1{
+     
+        color: #6CC1B6;
+        font:'Poppins';
+        font-weight: 700;
+        font-size: 36px;
+    }
+    .headingh2{
+        color: grey;
+        font:'Poppins';
+    }
+    .contactusform{
+        width:80%;
+        height:60%;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color:white;
+        font:'Poppins';
+       margin-left: 5%;
+    }
+    .contactusinput{
+     background-color: black;
+     border: none;
+     border-bottom: 2px solid silver;
+     color:white;
+     font:'Poppins';
+    }
+    .contactusbutt{
+        background: none;
+        border: none;
+        display: flex;
+        color: #c8a21c !important;
+        font-size: 18px;
+    }
+    .details1{
+        height:50%;
+        width:100%;
+        color:silver;
+    }
+    .details2{
+        color: white;
+    }
+    .details12{
+        width:15%;
+        height:55%;
+    }
+    .details22{
+       width:100%;
+       height:50%;
+        display: flex;
+        justify-content: space-between;
+        align-items: self-start;
+    }
+    
+}
+
+@media (min-width:1024px){
+    .contactdiv1{
+        width:100vw;
+        height:100vh;
+    }
+    .innerdiv1{
+        width:100%;
+        height:100%;
+        background-color: black;
+        margin-top: 0%;
+        display: flex;
+        justify-content: baseline;
+    flex-direction: column;
+    align-items: center;
+    }
+    .innerdiv2{
+        width:100%;
+        height:10%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .contactuspagedetails{
+        width:17%;
+        height:100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .headingd1{
+        margin-top: 2%;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+       text-align: start;
+       height: 35%;
+      
+    }
+    .googlemaplink{
+      width:80%;
+      height:60%;
+      text-decoration:none;
+      
+    }
+   .contactusinput:focus{
+        outline: none;
+    }
+   
+    .imagediv2h1{
+        color: #6CC1B6;
+        margin-left:5%;
+        margin-bottom: 0%;
+        font-size:32px;
+        font-weight: 700;
+        font:Poppins;
+    }
+    .headingh1{
+        color:  #6CC1B6;;
+        font:'Poppins';
+        font-weight: 500;
+        font-size: 36px;
+    }
+    .headingh2{
+        color: grey;
+        font:'Poppins';
+    }
+    .contactusform{
+        width:80%;
+        height:60%;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color:white;
+        font:'Poppins';
+       
+    }
+    .contactusinput{
+     background-color: black;
+     border: none;
+     border-bottom: 2px solid silver;
+     color:white;
+     font:'Poppins';
+    }
+    .contactusbutt{
+        background: none;
+        border: none;
+        /* background-color: #6CC1B6; */
+        display: flex;
+        color:#c8a21c;
+        font-size: 18px;
+    }
+    .details1{
+        height:50%;
+        width:100%;
+        color:silver;
+    }
+    .details2{
+        color: white;
+    }
+    .details12{
+        width:15%;
+        height:55%;
+    }
+    .details22{
+       width:100%;
+       height:50%;
+        display: flex;
+        justify-content: space-between;
+        align-items: self-start;
+    }
+    
+}
