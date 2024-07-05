@@ -26,7 +26,7 @@ main()
     console.log("connection successful");
 })
 async function main(){
-    await  mongoose.connect(`mongodb+srv://saigannu08:Sony24@cluster0.4kvebyg.mongodb.net/`);
+    await  mongoose.connect(`${process.env.MONGO_URL}`);
  }
  app.use("/api/users/", userRoutes);
  app.use("/api/auth/",authRoutes);
