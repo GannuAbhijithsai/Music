@@ -17,7 +17,7 @@ app.post("/",admin,async(req,res)=>{
 })
 
 app.get("/allsongs",async(req,res)=>{
-    const songs=await Song.find();
+    const songs=await Song.find().sort({ _id: -1 });
     res.status(200).send({data:songs});
 })
 
